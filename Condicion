@@ -9,9 +9,20 @@ public class Condicion
 		int edad;
 		edad = Integer.parseInt(JOptionPane.showInputDialog("Ingresa tu edad: "));
 		if (edad >= 18)
-			JOptionPane.showMessageDialog(null,"Tu eres un adulto");
-			
+		{
+			if (edad >= 60)
+			{
+				JOptionPane.showMessageDialog(null,"Tu eres una persona mayor");
+			}
+			else
+			{
+				JOptionPane.showMessageDialog(null,"Tu eres un adulto");
+			}
+		}			
 		else
+		{
 			JOptionPane.showMessageDialog(null,"Tu eres muy chico");
+		}
+		
 	}
 }
