@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+
+public class Condicion
+{
+	public static void main(String[] args)
+	{
+		int edad;
+		edad = Integer.parseInt(JOptionPane.showInputDialog("Ingresa tu edad: "));
+		if (edad >= 18)
+			JOptionPane.showMessageDialog(null,"Tu eres un adulto");
+			
+		else
+			JOptionPane.showMessageDialog(null,"Tu eres muy chico");
+	}
+}
