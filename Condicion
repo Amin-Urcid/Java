@@ -1,3 +1,5 @@
+//Este archivo muestra como es un condicional sencillo
+
 import javax.swing.JOptionPane;
 
 public class Condicion
